@@ -36,19 +36,22 @@ public class demo3 {
         //编码 unicode （97=a  64=A） 2字节， 65536个字符。  excel 2 16  =65536
         //U0000 UFFFF
         char c3='\u0061';
-        System.out.println(c3);//a
+        System.out.println(c3);
+        //a
         //转义字符
         //  \t 制表符
         //  \n 换行   。。。还有更多。
 
         String sa=new String("hello world");
         String sb =new String("hello world");
-        System.out.println(sa==sb);//false
+        System.out.println(sa==sb);
+        //false
 
         String sc ="hello world";
         String sd ="hello world";
         String se =new String(sc);
-        System.out.println(sc==sd);//true
+        System.out.println(sc==sd);
+        //true
 
         //对象，从内存分析
         //布尔值扩展
